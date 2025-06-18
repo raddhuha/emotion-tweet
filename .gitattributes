@@ -1,0 +1,2 @@
+*.ext filter=lfs diff=lfs merge=lfs -text
+Word2Vec_400dim.txt filter=lfs diff=lfs merge=lfs -text
