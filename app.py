@@ -6,10 +6,7 @@ import numpy as np
 import pickle
 import joblib
 import re
-<<<<<<< HEAD
 import ntlk
-=======
->>>>>>> a112ff230444ee0409b46c850c90e9602026e559
 from transformers import BertTokenizer, BertModel
 from nltk.corpus import wordnet
 from nltk import pos_tag, word_tokenize
