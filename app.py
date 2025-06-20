@@ -337,7 +337,7 @@ def main():
                 selected_example = st.selectbox("Pilih contoh:", [""] + examples)
                 if selected_example:
                     text_input = selected_example
-                    st.experimental_rerun()
+                    st.rerun()
             
             with col2:
                 st.subheader("📊 Hasil Analisis")
