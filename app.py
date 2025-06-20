@@ -322,7 +322,7 @@ def main():
                     clear_btn = st.button("🗑️ Clear", use_container_width=True)
                 
                 if clear_btn:
-                    st.experimental_rerun()
+                    st.rerun()
                 
                 # Contoh teks
                 st.subheader("💡 Contoh Teks")
